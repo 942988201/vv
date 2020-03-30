@@ -34,14 +34,12 @@ FastClick.attach(document.body)
 
 /* eslint-disable no-new */
 Vue.use(api)
-Promise.polyfill()
 Vue.use(ElementUI)
 
 
 new Vue({
   router,
   store,
-  i18n,//国际化
   render: h => h(App)
 }).$mount('#app')
 

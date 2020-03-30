@@ -5,7 +5,8 @@ function resolve(dir) {
     return path.join(__dirname, dir)
 }
 module.exports = {
-  lintOnSave: 'error', // 设置eslint报错时停止代码编译
+	
+  lintOnSave: false, // 设置eslint报错时停止代码编译
   productionSourceMap: false, // 不需要生产环境的 source map（减小dist文件大小，加速构建）
   devServer: {
     open: true,  // npm run serve后自动打开页面

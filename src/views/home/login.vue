@@ -32,7 +32,7 @@
 
 <script>
 import { mapState, mapMutations, mapActions } from "vuex";
-import { Tab, TabItem, XInput, Alert, Toast } from "vux";
+
 import store from "@/store/index";
 //import Cookies from "js-cookie"
 
@@ -40,11 +40,7 @@ export default {
   store,
   name: "login",
   components: {
-    Tab,
-    TabItem,
-    XInput,
-    Alert,
-    Toast
+    
   },
   data() {
     return {

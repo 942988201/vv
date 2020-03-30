@@ -189,7 +189,7 @@ export default {
 }
 .topBox {
   height: 60px;
-  background-image: url("~assets/yusys/home/Bg.png");
+  background-image: url("~assets/yusys/home/bg.png");
   background-size: 100% 100%;
   .contant {
     display: flex;

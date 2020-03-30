@@ -19,7 +19,7 @@ const router = new Router({
 		{ 
 		    path: 'view1', 
 		    name: '首页介绍', 
-		    component: Index,
+		    component: view1,
 		    meta: {
 		      icon: 'fa fa-home fa-lg',
 		      index: 0

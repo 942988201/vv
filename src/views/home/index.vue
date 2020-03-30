@@ -4,7 +4,7 @@
     <nav-bar class="navBar"></nav-bar>
     <top class="topBar"></top>
     <!-- 主内容区域 -->
-    <main-content class="mainContent"></main-content>
+    <content class="mainContent"></content>
   </div>
 </template>
 
@@ -18,8 +18,8 @@ export default {
   ...mapGetters(['getColor','getLayout']),
   },
   components: {
-    NavBar,
-    MainContent,
+    navBar,
+    content,
     top
   }
 };
